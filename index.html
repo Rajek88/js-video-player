@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Video Player by Rajendra Kulkarni</title>
+</head>
+<body>
+    <main class="main">
+        <div class="screen">
+            <!-- ******************** to handle images****************************** -->
+            <div id="img-carrier">
+                <img src="img/i1.png" id="video-image" alt="">
+            </div>
+            <!-- ******************** to handle progressbar****************************** -->
+            <div class="progress-div">
+                <progress class="progress-bar" max='100' ></progress>
+                <button id="audio-btn" onclick="audioBtn(this);"><i class="fas fa-volume-up"></i></button>
+            </div>
+            <!-- ******************** to handle video****************************** -->
+            <button id="play-btn" onclick="player(this);"><i class="fas fa-play-circle"></i></button>
+        </div>
+    </main>
+    <script src="js/player.js"></script>
+</body>
+</html>

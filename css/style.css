@@ -1,0 +1,114 @@
+
+/* ************************************************body********************************************************* */
+body{
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 400px;
+    background-color: rgb(31, 31, 31);
+}
+
+/* ************************************************main********************************************************* */
+
+.main{
+    width: 30%;
+    min-width: 380px;
+    height: auto;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* ************************************************screen********************************************************* */
+
+.screen{
+    min-height: 550px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    box-shadow: 20px 20px 50px #00d2c6, 
+    -30px -30px 60px #00ffff; ;
+}
+
+/* ************************************************play button********************************************************* */
+
+
+#play-btn{
+    position: absolute;
+    top: 48%;
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    color: rgb(114, 1, 1);
+    font-size: 55px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    visibility: hidden;
+}
+
+/* .screen:hover #play-btn{
+    visibility: visible;
+} */
+
+/* ************************************************image container********************************************************* */
+
+#img-carrier img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* ************************************************progress div********************************************************* */
+
+.progress-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 3%;
+}
+
+/* ************************************************progress bar********************************************************* */
+
+.progress-bar{
+    width: 78%;
+}
+
+/* ************************************************audio btn********************************************************* */
+
+#audio-btn{
+    height: 30px;
+    width: 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: #000;
+    padding: 1px;
+    font-size: 18px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
